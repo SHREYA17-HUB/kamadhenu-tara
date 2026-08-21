@@ -73,8 +73,8 @@ function Card({ p, i }: { p: Product; i: number }) {
 }
 
 export default function Products() {
-  const [active, setActive] = useState(GROUPS[0].id);
-  const group = GROUPS.find((g) => g.id === active) ?? GROUPS[0];
+  const [active, setActive] = useState(GROUPS[0]!.id);
+  const group = GROUPS.find((g) => g.id === active) ?? GROUPS[0]!;
 
   return (
     <section id="products" className="relative bg-forest-2 py-24 sm:py-32">

@@ -26,7 +26,7 @@ export default function Cursor() {
       const hot = target?.closest("a, button, [data-cursor]");
       if (ring.current) {
         const media = target?.closest("[data-cursor='media']");
-        ring.current.dataset.state = media ? "media" : hot ? "hot" : "idle";
+        ring.current.dataset["state"] = media ? "media" : hot ? "hot" : "idle";
       }
     };
 
