@@ -30,7 +30,7 @@ export default function Heritage() {
               />
             </div>
 
-            <div className="mt-4 grid grid-cols-[auto_1fr] items-stretch gap-4">
+            <div className="mt-4 grid h-28 grid-cols-[auto_1fr] gap-4 sm:h-32">
               <div className="reveal flex flex-col justify-center border border-gold/40 bg-ink/70 px-6 py-4 backdrop-blur-sm">
                 <p className="font-display text-4xl leading-none gold-text">1985</p>
                 <p className="mt-1 text-[0.55rem] tracking-[0.3em] text-warm">EST. BENGALURU</p>
@@ -42,7 +42,7 @@ export default function Heritage() {
                   width={800}
                   height={600}
                   loading="lazy"
-                  className="h-full min-h-[104px] w-full object-cover"
+                  className="h-full w-full object-cover"
                   data-cursor="media"
                 />
               </div>
